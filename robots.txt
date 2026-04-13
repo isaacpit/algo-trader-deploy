@@ -1,0 +1,27 @@
+User-agent: *
+
+# Public pages
+Allow: /
+Allow: /v4
+Allow: /feed
+Allow: /pricing
+Allow: /disclaimer
+Allow: /terms-of-service
+
+# Auth and account pages
+Disallow: /signup
+Disallow: /oauth/callback
+Disallow: /account
+Disallow: /subscription
+Disallow: /subscription/success
+Disallow: /subscription/cancel
+
+# App pages (require auth)
+Disallow: /signal-creator
+Disallow: /backtest-jobs
+Disallow: /my-strategies
+Disallow: /details-v4/
+Disallow: /v4/details/
+Disallow: /rate-limits
+
+Sitemap: https://algotraders.dev/sitemap.xml
