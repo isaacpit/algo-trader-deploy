@@ -20,8 +20,6 @@ Disallow: /subscription/cancel
 Disallow: /signal-creator
 Disallow: /backtest-jobs
 Disallow: /my-strategies
-Disallow: /details-v4/
-Disallow: /v4/details/
-Disallow: /rate-limits
+Disallow: /backtest/
 
 Sitemap: https://algotraders.dev/sitemap.xml
